@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView android:id="@+id/slot_name_tv" />
+
+    <Button
+        android:id="@+id/on_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/on" />
+
+    <Button
+        android:id="@+id/off_btn"
+        android:text="@string/off" />
+
+</TableRow>
